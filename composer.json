@@ -1,0 +1,12 @@
+{
+    "name": "root/html",
+    "authors": [
+        {
+            "name": "Caio Fabio",
+            "email": "cfr@modalnetworks.com"
+        }
+    ],
+    "require": {
+        "codeigniter/framework": "^3.1"
+    }
+}

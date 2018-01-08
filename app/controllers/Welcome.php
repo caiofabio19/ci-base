@@ -22,8 +22,7 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{   
-		$this->load->view('ValeSilicio');
-		//$this->load->view('testeForm');
-       //echo 'For composer';
+		echo APPPATH;
+		$this->load->view('aut.php');
 	}
 }
