@@ -22,7 +22,7 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{   
-		echo APPPATH;
-		$this->load->view('aut.php');
+		
+		$this->load->view('welcome.php');
 	}
 }
